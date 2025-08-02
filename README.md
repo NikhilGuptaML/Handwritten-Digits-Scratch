@@ -1,6 +1,6 @@
 # Handwritten Digit Classifier from Scratch
 
-This project implements a handwritten digit classifier built **entirely from scratch using NumPy**, trained on the **MNIST dataset** (or compatible format). It includes a modular training pipeline, data ingestion, preprocessing, and a test setup.
+This project implements a handwritten digit classifier built **entirely from scratch using NumPy**, trained on the **MNIST dataset** . It includes a modular training pipeline, data ingestion, preprocessing, and a test setup.
 
 ## Project Highlights
 
@@ -9,7 +9,7 @@ This project implements a handwritten digit classifier built **entirely from scr
 - Implements **forward + backward propagation manually**
 - **Leaky ReLU + Softmax** activation functions
 - Clean architecture using `src/` with logging and exception handling
-- 
+  
 
 ---
 ## Architecture
