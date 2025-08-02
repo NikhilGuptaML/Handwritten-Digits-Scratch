@@ -23,7 +23,7 @@ class DataIngestion:
         try:
             logging.info("Started unzipping the files")
 
-            os.makedirs(os.path.dirname(self.ingestion_config.updated_data_path),exist_ok=True)
+            os.makedirs(self.ingestion_config.updated_data_path,exist_ok=True)
 
             raw_files_list=os.listdir(self.ingestion_config.raw_data_folder)
 

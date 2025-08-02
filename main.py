@@ -13,5 +13,5 @@ def check_accuracy():
     test.run_pipeline()
 
 if __name__=="__main__":
-    check_accuracy()
+    train()
    
